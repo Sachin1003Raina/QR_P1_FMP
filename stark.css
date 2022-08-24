@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    
+    
+}
+.maincard{
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:0px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+
+}
+
+.h4{
+    margin-top: 0px;
+    padding: 0px 20px;
+    color: hsl(220, 15%, 55%);
+    font-size: 14px;
+    margin-bottom: 20px;  
+    font-weight: 400;
+}
+
+p{
+    padding: 5px;
+}
+.qrimg{
+    height: 290px;
+   width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.attribution{
+    font-size: 12px;
+}
